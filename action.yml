@@ -1,0 +1,12 @@
+name: test-action
+inputs:
+  some-arg:
+    required: true
+    default: arg-value
+outputs:
+  time:
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.some-arg }}
