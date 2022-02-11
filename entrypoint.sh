@@ -3,6 +3,7 @@
 echo "yoyo $1"
 pwd
 whoami
+ls -la
 time_value=$(date)
 apk update
 apk add nmap
