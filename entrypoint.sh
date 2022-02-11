@@ -1,6 +1,8 @@
 #!/bin/sh -l
 
 echo "yoyo $1"
+pwd
+whoami
 time_value=$(date)
 apk update
 apk add nmap
