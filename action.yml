@@ -5,6 +5,7 @@ inputs:
     default: 'arg-value'
 outputs:
   time:
+    description: 'time info'
 runs:
   using: 'docker'
   image: 'Dockerfile'
